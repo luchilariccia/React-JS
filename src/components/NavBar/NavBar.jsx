@@ -1,6 +1,7 @@
 import '../NavBar/NavBar.css';
 import logo from '../../assets/logo.png'
 import {CartWidget} from '../CartWidget/CartWidget';
+import { Link, NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
     
@@ -9,22 +10,13 @@ export const NavBar = () => {
         <div className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid justify-content-between">
                 <div>
-                <img className="nav-logo" src={logo} alt="logo" />
+                <Link to="/"> <img className="nav-logo" src={logo} alt="logo"/> </Link>
                 </div>
                 <div>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#top">Inicio</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="">Replicas</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="">Alquileres</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <Link className='m-2' to="/">Inicio</Link>
+                    <NavLink className='m-2' to="/item/auto">Automóviles</NavLink>
+                    <NavLink className='m-2' to="/item/camioneta">Camionetas</NavLink>
+                    
                 </div>
                 <div className=''>
                    <CartWidget/>
