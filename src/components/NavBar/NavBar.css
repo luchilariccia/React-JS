@@ -3,10 +3,6 @@
     padding: 20px 10px;
 }
 
-.navbar-nav, .mr-auto {
-    flex: 1;
-    justify-content: end;
-}
 
 .navbar {
     height: 150px;

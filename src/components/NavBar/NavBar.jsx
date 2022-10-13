@@ -7,8 +7,8 @@ export const NavBar = () => {
     
     return(
         <>
-        <div className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid justify-content-between">
+        <div className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark d-flex">
+            <div className="container-fluid justify-content-beewtwen">
                 <div>
                 <Link to="/"> <img className="nav-logo" src={logo} alt="logo"/> </Link>
                 </div>
