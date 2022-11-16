@@ -1,7 +1,22 @@
-.img-auto {
-    width: 500px;
-    height: 300px;
-}
 .card-producto{
+    height: 450px;
     border: 1px solid black;
+}
+
+.boton-ver {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.boton-ver:hover{
+    border: 2px solid black;
+}
+
+
+
+.price {
+    font-weight: bolder;
 }

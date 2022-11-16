@@ -9,13 +9,13 @@ export const NavBar = () => {
         <>
         <div className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark d-flex">
             <div className="container-fluid justify-content-beewtwen">
-                <div>
-                <Link to="/"> <img className="nav-logo" src={logo} alt="logo"/> </Link>
+                <div className='d-flex justify-content-center'>
+                    <Link to="/"> <img className="nav-logo" src={logo} alt="logo"/> </Link>
                 </div>
-                <div>
-                    <Link className='m-2' to="/">Inicio</Link>
-                    <NavLink className='m-2' to="/item/auto">Automóviles</NavLink>
-                    <NavLink className='m-2' to="/item/camioneta">Camionetas</NavLink>
+                <div className='d-flex'>
+                    <Link className='m-5 nav' to="/">Inicio</Link>
+                    <NavLink className='m-5 nav' to="/item/auto">Automóviles</NavLink>
+                    <NavLink className='m-5 nav' to="/item/camioneta">Camionetas</NavLink>
                     
                 </div>
                 <div className=''>

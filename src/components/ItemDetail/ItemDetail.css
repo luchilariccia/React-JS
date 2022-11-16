@@ -1,0 +1,53 @@
+.tlt-detail {
+    font-weight: bold;
+}
+
+.precio {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.aclaracion{
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.contenedor-detail{
+    margin-top: 50px;
+}
+
+.precio-anterior{
+    font-weight: bold;
+    color: red;
+    text-decoration: line-through;
+}
+
+.btn-ver{
+    margin-top: 95px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.btn-ver:hover{
+    color: white;
+    background-color: black;
+}
+
+.btn-terminar {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: black 1px solid;
+    padding: 5px;
+    margin-top: 60px;
+    margin-right: 500px;
+}
+
+.btn-terminar:hover{
+    background-color: black;
+    color: white;
+}

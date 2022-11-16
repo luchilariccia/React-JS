@@ -1,0 +1,18 @@
+.btn-ver{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.btn-ver:hover{
+    color: white;
+    background-color: black;
+}
+
+.price {
+    font-weight: bolder;
+}

@@ -1,0 +1,30 @@
+.itemCart {
+    display: flex;
+    border: 1px solid black;
+}
+
+
+.img-cart{
+    height: 120px;
+    width: 180px;
+    border: 1px solid black;
+}
+
+
+.btn-remove {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn-remove:hover{
+    background-color: black;
+    color: white;
+}
+
+.contenedor-itemcart{
+    font-weight: 500;
+}
+
+.modelo{
+    margin-top: -15px;
+}
